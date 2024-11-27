@@ -30,7 +30,7 @@ export default function Home( { allData, allCats, allOwners, allContacts } ) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Layout home>
+      <Layout>
       <h1>Hello from Carinas Cats</h1>
 
       <div className="list-group">
