@@ -19,8 +19,8 @@ export async function getStaticProps() {
   };
 }
 
-// exports Home page component
-export default function Home( { allData, allCats, allOwners, allContacts } ) {
+// exports Home page component removed allData to populate my three endpoints instead
+export default function Home( { allCats, allOwners, allContacts } ) {
   return (
     <>
       <Head>
