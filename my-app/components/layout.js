@@ -10,8 +10,8 @@ export default function Layout( { children, home } ) {
             <header>
                 <nav>
                     <a href="https://sierrameadowscatalog.carinaogbat.site/">Check the CATalog</a>
-                    <a href="/owners">    View Owners</a>
-                    <a href="/contacts">   Contacts</a>
+                    <Link href="/owners">    View Owners</Link>
+                    <Link href="/contacts">   Contacts</Link>
                 </nav>
             </header>
             <main>

@@ -37,7 +37,7 @@ export default function Home( { allData, allCats, allOwners, allContacts } ) {
         <h4>Contacts:</h4>
         {allContacts && allContacts.map(
           ({id, name}) => (
-            <p>
+            <p key={id}>
               {name}
             </p>
           )
