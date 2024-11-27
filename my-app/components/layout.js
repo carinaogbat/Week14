@@ -10,19 +10,22 @@ export default function Layout( { children, home } ) {
             <header>
                 <nav>
                     <a href="https://sierrameadowscatalog.carinaogbat.site/">Check the CATalog</a>
+                    <a href="/owners">    View Owners</a>
+                    <a href="/contacts">   Contacts</a>
                 </nav>
             </header>
             <main>
                 {children}
             </main>
-            {!home && (
+
+            <footer>
+                <p>Carinas Cats, a site for cat lovers </p>
+                {!home && (
                 <Link href="/" className="btn btn-primary mt-3">
                     Back to Home
                 </Link>
             )
             }
-            <footer>
-                <p>Carinas Cats, a site for cat lovers </p>
             </footer>
         </div>
     );
