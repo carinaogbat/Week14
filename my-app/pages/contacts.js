@@ -31,7 +31,7 @@ export default function Home( { allData, allCats, allOwners, allContacts } ) {
       </Head>
 
       <Layout>
-      <h1>Hello from Carinas Cats</h1>
+      <h1>Carinas Cats</h1>
 
       <div className="list-group">
         <h4>Contacts:</h4>

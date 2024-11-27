@@ -37,7 +37,7 @@ export default function Home( { allData, allCats, allOwners, allContacts } ) {
         <h3>Kitty Owners</h3>
         {allOwners && allOwners.map(
           ({id, name}) => (
-            <p className="list-group-item">
+            <p key={id}>
               {name}
             </p>
           )
