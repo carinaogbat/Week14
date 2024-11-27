@@ -8,10 +8,12 @@ export default function Layout( { children, home } ) {
                 <title>Carinas Cats</title>
             </Head>
             <header>
-                <nav>
-                    <a href="https://sierrameadowscatalog.carinaogbat.site/">Check the CATalog</a>
+                <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                    <div className="container">
                     <Link href="/owners">    View Owners</Link>
                     <Link href="/contacts">   Contacts</Link>
+                    <a href="https://sierrameadowscatalog.carinaogbat.site/">Check the Neighborhood CATalog</a>
+                    </div>
                 </nav>
             </header>
             <main>
